@@ -12,15 +12,20 @@ División de numero1 entre numero2.
 
 // ingrese los dos números
 
-let numero1 = parseInt(prompt("ingrese el primer número"));
+let numero1 = parseFloat(prompt("ingrese el primer número"));
 console.log(numero1);
 
-let numero2 = parseInt(prompt("ingrese el segundo número"));
+let numero2 = parseFloat(prompt("ingrese el segundo número"));
 console.log(numero2);
 
 // suma de numero1 y numero2
 
 console.log("el resultado es: " + (numero1 + numero2));
 prompt("el resultado es: " + (numero1 + numero2));
+
+// Resta de numero1 y numero2
+
+console.log("el resultado es: " + (numero1 - numero2))
+prompt("el resultado es: " + (numero1 - numero2))
 
 
