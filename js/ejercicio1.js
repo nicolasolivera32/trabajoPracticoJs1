@@ -20,15 +20,20 @@ console.log(numero2);
 
 // suma de numero1 y numero2
 
-console.log("el resultado es: " + (numero1 + numero2));
-prompt("el resultado es: " + (numero1 + numero2));
+console.log("el resultado de la suma es: " + (numero1 + numero2));
+prompt("el resultado de la suma es: " + (numero1 + numero2));
 
 // Resta de numero1 y numero2
 
-console.log("el resultado es: " + (numero1 - numero2));
-prompt("el resultado es: " + (numero1 - numero2));
+console.log("el resultado de la resta es: " + (numero1 - numero2));
+prompt("el resultado de la resta es: " + (numero1 - numero2));
 
 // Multiplicación de numero1 y numero2
 
-console.log("el resultado es: " + numero1 * numero2);
-prompt("el resultado es: " + numero1 * numero2);
+console.log("el resultado de la multiplicación es: " + numero1 * numero2);
+prompt("el resultado de la multiplicación es: " + numero1 * numero2);
+
+// División de numero1 y numero2
+
+console.log("el resultado de la división es: " + numero1 / numero2);
+prompt("el resultado de la división es: " + numero1 / numero2);
