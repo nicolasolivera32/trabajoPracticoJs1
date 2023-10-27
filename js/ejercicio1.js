@@ -25,7 +25,10 @@ prompt("el resultado es: " + (numero1 + numero2));
 
 // Resta de numero1 y numero2
 
-console.log("el resultado es: " + (numero1 - numero2))
-prompt("el resultado es: " + (numero1 - numero2))
+console.log("el resultado es: " + (numero1 - numero2));
+prompt("el resultado es: " + (numero1 - numero2));
 
+// Multiplicación de numero1 y numero2
 
+console.log("el resultado es: " + numero1 * numero2);
+prompt("el resultado es: " + numero1 * numero2);
