@@ -8,6 +8,14 @@ Output: oauo
 
 let frase = prompt("Ingrese una frase");
 
-console.log(
-  frase.charAt(1) + frase.charAt(3) + frase.charAt(6) + frase.charAt(9)
-);
+for (i = 0; i < frase.length; i = i + 1) {
+  if (
+    frase[i] === "a" ||
+    frase[i] === "e" ||
+    frase[i] === "i" ||
+    frase[i] === "o" ||
+    frase[i] === "u"
+  ) {
+    console.log(frase[i]);
+  }
+}
